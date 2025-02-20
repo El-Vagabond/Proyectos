@@ -124,15 +124,7 @@ public class App {
         }
     }
 
-    public static void remplazoArray(ArrayList<String> lista) {
-        Scanner escaner = new Scanner(System.in);
-        System.out.println("Que posicions del arraylist quieres remplazar?");
-        int posi = escaner.nextInt();
-        escaner.nextLine();
-        System.out.println("Que nombre quieres poner en su lugar");
-        String nombre = escaner.nextLine();
-        lista.set(posi, nombre);
-    }
+   
 
     public static void intercambioArray(ArrayList<String> lista) {
         Scanner escaner = new Scanner(System.in);
