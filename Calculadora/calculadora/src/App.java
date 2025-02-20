@@ -5,5 +5,8 @@ public class App {
         System.out.println("Primer commit!");
 
         Scanner escaner = new Scanner(System.in);
+        System.out.println("Ingrese el primer número: ");
+        int num1 = escaner.nextInt();
+        
     }
 }
